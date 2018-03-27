@@ -1,5 +1,18 @@
 # Graph Visualization
 
+## Problem statement
+The goal of the project is to create visualization system of graphs. Project supports simple undirected graphs without loops and self-edges. 
+Graph can be readed from external text files or generated. Graphs in the text files can be written in one of the following formats: gml, edge list and adjacency matrix.
+Possible types of generated graphs:
+
+ - Star
+ - Path
+ - Cycle
+ - Wheel
+ - Complate
+
+Positions os graph nodes are obtained by Force-Directed algorithm (Fruchterman-Reingold). The obtained graph saved in external image file.
+
 ## Building
 The project can be compiled using maven:
 
