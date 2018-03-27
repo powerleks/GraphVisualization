@@ -17,7 +17,8 @@ Positions os graph nodes are obtained by Force-Directed algorithm (Fruchterman-R
 The project can be compiled using maven:
 
 ```sh
-$ mvn compile
+$ mvn package
+$ java -cp target/GraphVisualization-1.0-SNAPSHOT.jar Main -i ./input/FD-Sample2.gml
 ```
 
 ## Usage
